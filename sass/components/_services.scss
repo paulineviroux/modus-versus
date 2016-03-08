@@ -1,0 +1,83 @@
+//Section service
+/*
+.services{
+    .focus{
+        padding: 2.4rem 28rem 2.4rem 3rem;
+        background: #ececec; //VAR
+        border-radius: 0.4rem;
+        &__title{
+            font: 600 3rem "OpenSans"; //VAR
+            color: #7f8c8c; //VAR
+        }
+        &__intro{
+            font: normal 1.3rem "OpenSans"; //VAR
+        }
+        &__callout{
+            display: block;
+            padding: 1.8rem 0.8rem;
+            background: #e8645a; //$focusColor
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 0.4rem;
+            box-shadow: 0 0.3em 0 0 #e2534b; //$darkFocusColor
+            font: 600 1.3rem "OpenSans"; //$openSansStack
+            color: #fff; //$menuTextColor
+            
+        }
+    }
+    ul{
+        li{ 
+            .service{
+                display: block;
+                background: #f8f8f8; //VAR
+                border-radius: 0.4rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 5rem 2rem 4.5rem;
+                text-align: center;
+                &__title{
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                    font-family: "OpenSans"; //VAR 
+                }
+                &__title::before{ 
+                    display: block;
+                    font: normal 6rem "Glyphs";
+                    color: #62bdbd; //VAR  
+                    &--icon-thumb::before{
+                        content: "";   
+                    }
+                    &--icon-key{
+                        content: "";
+                    }
+                    &--icon-flag{
+                        content: "";
+                    }
+                    &--icon-flask{
+                        content: "";
+                    }
+
+                }
+                &__p{
+                    font: normal 1.3rem "OpenSans"; //VAR
+                    color: #777; //VAR
+                }
+                &__fake-button{
+                    font: 600 1.4rem "OpenSans"; //VAR
+                    color: #fff; //VAR
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 0.4rem;
+                    padding: 1.8rem 0.8rem;
+                    box-shadow: 0 0.3em 0 0 #528b86; //VAR + em ou rem?
+                    display: block;
+                    background: #62a29a; //VAR
+    
+                }
+
+            }
+        }
+    }
+}*/
+

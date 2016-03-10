@@ -1,5 +1,5 @@
 //Section Why?
-/*
+
 .why{
     background: #ececec url("../..assets/img/why-bcg-pattern.png") repeat-x scroll left top;
     &__title{
@@ -10,7 +10,7 @@
         display: block;
         text-transform: uppercase;
         color: $focusColor;
-        font: 600 4rem $OpenSansStack;
+        font: 600 4rem $openSansStack;
     }
     &__textSpan{
         display: block;
@@ -79,4 +79,4 @@
         }
         
     }
-}*/
+}

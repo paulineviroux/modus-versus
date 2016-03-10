@@ -1,0 +1,57 @@
+.clients{
+    width: 117rem;
+    margin: auto;
+    &__title{
+        float: left;
+    }
+    &__nav{
+        a{
+            display: inline-block;
+            float: right;
+            padding: 1rem 1rem;
+            margin: 1rem;
+            border-radius: 0.4rem;
+            font: 600  1.3rem/1 "OpenSans"; /*semibold*/
+            text-decoration: none;
+            text-transform: uppercase;
+            color: transparent;
+            width: 2rem;
+            height: 2rem;
+            background-color: #e8645a;
+        }
+    }
+    &__client-previous::before{
+        position: relative;
+        top: -.8rem;
+        right: .4rem;
+        content: "";
+        font: normal 1.4rem "Glyphs";
+        color: #FFF;
+    }
+    &__client-next::before{
+        position: relative;
+        top: -.8rem;
+        right: .6rem;
+        content: "";
+        font: normal 1.4rem "Glyphs";
+        color: #FFF;
+    }
+    ul{
+        clear: both;
+        overflow: hidden;
+        width: 100%;
+    }
+    &__client{
+        display: table-cell;
+        table-layout: fixed;
+        border-collapse: separate;
+        border-right: 3rem solid transparent;
+    }
+    &__icone{
+        display: block;
+    }
+    &__img{
+
+    }
+
+}

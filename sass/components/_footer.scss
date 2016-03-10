@@ -1,0 +1,102 @@
+.footer{
+    background-color: #76c7c0;
+    line-height: 2rem;
+    padding-top: 4.8rem;
+    .aside{
+        &__title{
+            position: relative;
+            width: 19.2rem;
+            height: 2.2rem; 
+            margin: 0 auto;
+            left:-48.9rem;
+            -webkit-background-size: contain;
+            background-size: contain; 
+            font-size: 0; 
+        }
+        &__primary{
+
+        }
+        &__cols{
+
+        }
+    }
+    .col{
+        color: white;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: -5.7em
+        &--contact-infos{
+
+        }
+        &--sitemap{
+
+        }
+        &--community{
+
+        } 
+        &__title{
+            margin-bottom: 3.5rem;
+        }
+        &__link{
+
+        }
+        &__text{
+
+        }
+        &__item{
+
+        }
+        &__list{
+
+        }
+        &__img{
+
+        }
+    }
+    .contact{
+        &__term{
+
+        }
+        &__def{
+
+        }
+        &__link{
+
+        }
+    }
+    .secondary{
+        padding: 1rem 0;
+        margin: 0 auto;
+        background-color: rgb(107,180,173);
+    }
+    .legals{
+        display: inline;
+        vertical-align: middle;
+        position:relative;
+        left: 13rem;
+        font-size: 1.3rem;
+        &__links{
+            font-size: 1.3rem;
+            position: relative;
+            left: 36.5rem;
+        }
+    }    
+    .socials{
+        display: inline;
+        vertical-align: middle;
+        ul{
+            font-size: 0;
+            display: inline;
+            position: relative;
+            left: 105rem;
+        }
+        &__item{
+            display: inline;
+            vertical-align: middle;
+        }
+        &__link{
+
+        }
+    }
+    
+}
